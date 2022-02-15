@@ -1,0 +1,46 @@
+[INFO ] 14-02-2022 13:18:54.160 [main] Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 14-02-2022 13:18:55.123 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 14-02-2022 13:18:55.416 [main] C3P0ConnectionProvider - HHH010002: C3P0 using driver: oracle.jdbc.driver.OracleDriver at URL: jdbc:oracle:thin:@localhost:1521:orcl
+[INFO ] 14-02-2022 13:18:55.416 [main] C3P0ConnectionProvider - HHH10001001: Connection properties: {useUnicode=true, poolsize=2000, user=soncv, password=****, characterEncoding=utf8, defaultNChar=true, charSet=utf8}
+[INFO ] 14-02-2022 13:18:55.417 [main] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 14-02-2022 13:18:55.819 [main] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[INFO ] 14-02-2022 13:18:56.271 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+[WARN ] 14-02-2022 13:18:56.940 [main] RootClass - HHH000038: Composite-id class does not override equals(): entity.roster.Roster
+[WARN ] 14-02-2022 13:18:56.941 [main] RootClass - HHH000039: Composite-id class does not override hashCode(): entity.roster.Roster
+[INFO ] 14-02-2022 13:18:58.053 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 14-02-2022 13:18:58.541 [main] SQL - 
+    select
+        max(busroute0_.bus_route_id) as col_0_0_ 
+    from
+        bus_route busroute0_
+[INFO ] 14-02-2022 13:18:58.791 [main] C3P0ConnectionProvider - HHH010002: C3P0 using driver: oracle.jdbc.driver.OracleDriver at URL: jdbc:oracle:thin:@localhost:1521:orcl
+[INFO ] 14-02-2022 13:18:58.792 [main] C3P0ConnectionProvider - HHH10001001: Connection properties: {useUnicode=true, poolsize=2000, user=soncv, password=****, characterEncoding=utf8, defaultNChar=true, charSet=utf8}
+[INFO ] 14-02-2022 13:18:58.793 [main] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 14-02-2022 13:18:58.860 [main] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[INFO ] 14-02-2022 13:18:58.902 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+[WARN ] 14-02-2022 13:18:58.984 [main] RootClass - HHH000038: Composite-id class does not override equals(): entity.roster.Roster
+[WARN ] 14-02-2022 13:18:58.985 [main] RootClass - HHH000039: Composite-id class does not override hashCode(): entity.roster.Roster
+[INFO ] 14-02-2022 13:18:59.014 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 14-02-2022 13:18:59.056 [main] SQL - 
+    select
+        max(driver0_.driver_id) as col_0_0_ 
+    from
+        driver driver0_
+[INFO ] 14-02-2022 13:19:20.455 [main] Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 14-02-2022 13:19:21.675 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 14-02-2022 13:19:21.928 [main] C3P0ConnectionProvider - HHH010002: C3P0 using driver: oracle.jdbc.driver.OracleDriver at URL: jdbc:oracle:thin:@localhost:1521:orcl
+[INFO ] 14-02-2022 13:19:21.928 [main] C3P0ConnectionProvider - HHH10001001: Connection properties: {useUnicode=true, poolsize=2000, user=soncv, password=****, characterEncoding=utf8, defaultNChar=true, charSet=utf8}
+[INFO ] 14-02-2022 13:19:21.928 [main] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 14-02-2022 13:19:22.335 [main] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[INFO ] 14-02-2022 13:19:22.802 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+[WARN ] 14-02-2022 13:19:23.518 [main] RootClass - HHH000038: Composite-id class does not override equals(): entity.roster.Roster
+[WARN ] 14-02-2022 13:19:23.519 [main] RootClass - HHH000039: Composite-id class does not override hashCode(): entity.roster.Roster
+[INFO ] 14-02-2022 13:19:24.448 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 14-02-2022 13:19:24.878 [main] C3P0ConnectionProvider - HHH010002: C3P0 using driver: oracle.jdbc.driver.OracleDriver at URL: jdbc:oracle:thin:@localhost:1521:orcl
+[INFO ] 14-02-2022 13:19:24.878 [main] C3P0ConnectionProvider - HHH10001001: Connection properties: {useUnicode=true, poolsize=2000, user=soncv, password=****, characterEncoding=utf8, defaultNChar=true, charSet=utf8}
+[INFO ] 14-02-2022 13:19:24.879 [main] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 14-02-2022 13:19:24.929 [main] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[INFO ] 14-02-2022 13:19:24.968 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+[WARN ] 14-02-2022 13:19:25.065 [main] RootClass - HHH000038: Composite-id class does not override equals(): entity.roster.Roster
+[WARN ] 14-02-2022 13:19:25.065 [main] RootClass - HHH000039: Composite-id class does not override hashCode(): entity.roster.Roster
+[INFO ] 14-02-2022 13:19:25.116 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
